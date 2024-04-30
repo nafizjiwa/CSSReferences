@@ -10,18 +10,18 @@
 /* puts a gap between rows and columns. A single value would have rows and columns the same */ <br>
 &nbsp; &nbsp; `}` <br>
 
-4. FLIP AN IMAGE <br>
+5. FLIP AN IMAGE <br>
 &nbsp; &nbsp; ` element/class_Name {` <br>
 &nbsp; &nbsp; &nbsp; `transform: scaleX(-1);` <br>
 &nbsp; &nbsp;   ` } ` <br>
      /* flips image horizontally items on left are now on right in picture*/ <br>
      /* scaleY(-1) would flip an image from right facing to left facing.*/ <br>
-<br>
+   
 6. SMOOTH SCROLLING <br>
 &nbsp; &nbsp; `html {` <br>
 &nbsp; &nbsp; &nbsp; `scroll-behaviour: smooth;` <br>
 &nbsp; &nbsp; `}` <br>
-<br>
+
 7. SCROLL SNAPPING<br>
 &nbsp; &nbsp; `main_Container_Name {`<br>
 &nbsp; &nbsp; &nbsp; `display: flex;`<br>
