@@ -17,10 +17,10 @@
      /* flips image horizontally items on left are now on right in picture*/ <br>
      /* scaleY(-1) would flip an image from right facing to left facing.*/ <br>
 <br>
-6. SMOOTH SCROLLING<br>
-&nbsp; &nbsp; `html {`<br>
-&nbsp; &nbsp; &nbsp; `scroll-behaviour: smooth;`<br>
-&nbsp; &nbsp; `}`<br>
+6. SMOOTH SCROLLING <br>
+&nbsp; &nbsp; `html {` <br>
+&nbsp; &nbsp; &nbsp; `scroll-behaviour: smooth;` <br>
+&nbsp; &nbsp; `}` <br>
 <br>
 7. SCROLL SNAPPING<br>
 &nbsp; &nbsp; `main_Container_Name {`<br>
