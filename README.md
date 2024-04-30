@@ -51,6 +51,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; `background: linear-gradient(to right, rgb, rgb);` /* set preferred gradient */<br>
 &nbsp; &nbsp; &nbsp; &nbsp; `-webkit-background-clip: text;` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `-webkit-text-fill-color: transparent;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;` <br>
 &nbsp; &nbsp; &nbsp;  ` }` <br>
 
