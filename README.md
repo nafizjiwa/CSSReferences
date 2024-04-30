@@ -30,19 +30,19 @@
        resize: both;      /* if both not used can use vertically or horizontally */<br>
      }<br>
 7. TRUNCATE<br>
-&nbsp; p {<br>
-&nbsp; &nbsp; &nbsp; display: -webkit-box;   /* to allow just a preview of text and add ... after the previewed text */ <br>
-&nbsp; &nbsp; &nbsp; -webkit-line-clamp: 1;  /* states how many lines will show in the preview */ <br>
-&nbsp; &nbsp; &nbsp; -webkit-box-orient: vertical; <br>
-&nbsp; &nbsp; &nbsp; overflow: hidden;<br>
-&nbsp; &nbsp; &nbsp; }<br>
+&nbsp; `p { `<br>
+&nbsp; &nbsp; &nbsp; `display: -webkit-box;` /* to allow just a preview of text and add ... after the previewed text */ <br>
+&nbsp; &nbsp; &nbsp; `-webkit-line-clamp: 1; ` /* states how many lines will show in the preview */ <br>
+&nbsp; &nbsp; &nbsp; `-webkit-box-orient: vertical;` <br>
+&nbsp; &nbsp; &nbsp; `overflow: hidden;`<br>
+&nbsp; &nbsp; &nbsp; `} `<br>
 8. TEXT GRADIENT<br>
 &nbsp; `element_Name/class {`<br>
-&nbsp; &nbsp; &nbsp; &nbsp; `background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */`<br>
-&nbsp; &nbsp; &nbsp; &nbsp; `-webkit-background-clip: text;`<br>
-&nbsp; &nbsp; &nbsp; &nbsp; `-webkit-text-fill-color: transparent;`<br>
-&nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;`<br>
-&nbsp; &nbsp; &nbsp;  ` }`<br>
+&nbsp; &nbsp; &nbsp; &nbsp; `background: linear-gradient(to right, rgb, rgb);` /* set preferred gradient */<br>
+&nbsp; &nbsp; &nbsp; &nbsp; `-webkit-background-clip: text;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `-webkit-text-fill-color: transparent;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;` <br>
+&nbsp; &nbsp; &nbsp;  ` }` <br>
 &nbsp;&nbsp; &nbsp;
 9. OBJECT FIT<br>
      An image within a container
