@@ -36,11 +36,14 @@
         -webkit-box-orient: vertical; <br>
         overflow: hidden;<br>
      }<br>
-13. TEXT GRADIENT
-     background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-15. adfsjljasljf
+8. TEXT GRADIENT<br>
+      background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */<br>
+     -webkit-background-clip: text;<br>
+     -webkit-text-fill-color: transparent;<br>
+9. OBJECT FIT<br>
+     An image within a container
+     
+           
 16. ladfslasjl
 17. asdfljaslfj
 18. 
