@@ -61,7 +61,7 @@ To prevent this we use <br>
 &nbsp; &nbsp; &nbsp; `box {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `height: some amount` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; ` width: some amount` <br>     
-&nbsp; &nbsp; &nbsp; `}` <br>
+&nbsp; &nbsp; &nbsp; `}` 
 &nbsp; &nbsp; &nbsp; `box img {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `height: 100%` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; ` width: 100%` <br>
