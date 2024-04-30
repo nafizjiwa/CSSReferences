@@ -3,6 +3,10 @@
 &nbsp; &nbsp; `element/class_Name { `<br>
 &nbsp; &nbsp; &nbsp; `writing-mode: vertical-lr;`<br>
 &nbsp; &nbsp;` } ` <br>
+1. VERTICAL TEXT <br>
+&nbsp; &nbsp; `element/class_Name { `<br>
+&nbsp; &nbsp; &nbsp; `writing-mode: vertical-lr;`<br>
+&nbsp; &nbsp;` } ` <br>
 <br>
 2. GAP <br>
 &nbsp; &nbsp; `element/class_Name {` <br>
