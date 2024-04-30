@@ -69,8 +69,8 @@ To prevent this we use <br>
 &nbsp; &nbsp; &nbsp; `}`<br>
 
 10. POINTER EVENTS <br>
-Prevents from selecting and item
-&nbsp; `element_Name/class {`<br>
+Prevents from selecting and item <br>
+&nbsp; `element_Name/class {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
 &nbsp; `} `<br>
 
