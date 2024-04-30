@@ -1,14 +1,14 @@
 # CSS Reference<br>
 1. VERTICAL TEXT<br>
-&nbsp; &nbsp; `element/class_Name` {<br>
+&nbsp; &nbsp; `element/class_Name { `<br>
 &nbsp; &nbsp; &nbsp; `writing-mode: vertical-lr;`<br>
 &nbsp; &nbsp;` } ` <br>
 <br>
 2. GAP<br>
 &nbsp; &nbsp; `element/class_Name {`<br>
-&nbsp; &nbsp; &nbsp; `gap: 10px 40px;`
-&nbsp; &nbsp; &nbsp; /*puts a gap between rows and columns. A single value would have rows and columns the same */<br>
-&nbsp; &nbsp;` }`<br>
+&nbsp; &nbsp; &nbsp; `gap: 10px 40px;` <br>
+&nbsp; &nbsp; &nbsp; /*puts a gap between rows and columns. A single value would have rows and columns the same */ <br>
+&nbsp; &nbsp; `}` <br>
 <br>
 4. FLIP AN IMAGE<br>
 &nbsp; &nbsp;` element/class_Name {`<br>
