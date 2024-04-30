@@ -7,7 +7,6 @@
 2. GAP <br>
 &nbsp; &nbsp; `element/class_Name {` <br>
 &nbsp; &nbsp; &nbsp; `gap: 10px 40px;` <br>
-&nbsp; &nbsp; &nbsp; <br>
 /* puts a gap between rows and columns. A single value would have rows and columns the same */ <br>
 &nbsp; &nbsp; `}` <br>
 <br>
