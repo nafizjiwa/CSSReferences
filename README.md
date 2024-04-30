@@ -14,6 +14,11 @@
 &nbsp; &nbsp; &nbsp; /* puts a gap between rows and columns. A single value would have rows and columns the same */ <br>
 &nbsp; &nbsp; `}` <br>
 <br>
+1. VERTICAL TEXT <br>
+&nbsp; &nbsp; `element/class_Name { `<br>
+&nbsp; &nbsp; &nbsp; `writing-mode: vertical-lr;`<br>
+&nbsp; &nbsp;` } ` <br>
+
 4. FLIP AN IMAGE<br>
 &nbsp; &nbsp;` element/class_Name {`<br>
 &nbsp; &nbsp; &nbsp; `transform: scaleX(-1);` /* flips image horizontally items on left are now on right in picture*/<br>
