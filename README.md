@@ -37,12 +37,12 @@
         overflow: hidden;<br>
      }<br>
 8. TEXT GRADIENT<br>
-     `element_Name/class {`<br>
-          `background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */`<br>
-          `-webkit-background-clip: text;`<br>
-          `-webkit-text-fill-color: transparent;`<br>
-          `opacity: 0;`<br>
-          `}`<br>
+&nbsp; &nbsp;`element_Name/class {`<br>
+&nbsp;&nbsp;&nbsp; `background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */`<br>
+&nbsp;&nbsp;&nbsp;`-webkit-background-clip: text;`<br>
+&nbsp;&nbsp;&nbsp;`-webkit-text-fill-color: transparent;`<br>
+&nbsp;&nbsp;&nbsp;`opacity: 0;`<br>
+&nbsp;&nbsp;&nbsp;`}`<br>
 9. OBJECT FIT<br>
      An image within a container
      
