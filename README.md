@@ -56,7 +56,17 @@
 &nbsp; &nbsp; &nbsp;  ` }` <br>
 
 9. OBJECT FIT <br>
-An image within a container <br>
-&nbsp; &nbsp; &nbsp;
-     
+An image within a container which you set the height and width to 100% of its container can have a strech effect<br>
+To prevent this we use <br>
+&nbsp; &nbsp; &nbsp; `box {` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `height: some amount` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ` width: some amount` <br>     
+&nbsp; &nbsp; `}`<br>
+&nbsp; &nbsp; &nbsp; `box img {` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `height: 100%` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ` width: 100%` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; ` object-fit: cover/ fill/ fit` <br>    /* cover is best when preventing stretching and filling the container*/  
+&nbsp; &nbsp; `}`<br>
+
+10. POINTER EVENTS <br>
 
