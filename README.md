@@ -1,35 +1,41 @@
-# CSS Reference
-1. VERTICAL TEXT
-     element/class_Name {
-        writing-mode: vertical-lr;
-     }
-2. GAP
-    element/class_Name {
-      gap: 10px 40px; /* puts a gap between rows and columns. A single value would have rows and columns the same */
-     }
-3. FLIP AN IMAGE
-    element/class_Name {
-      transform: scaleX(-1); /* flips image horizontally items on left are now on right in picture*/
-     }                        /* scaleY(-1) would flip an image from right facing to left facing.*/
-4. SMOOTH SCROLLING
-    html {
-      scroll-behaviour: smooth;
-     }
-5. SCROLL SNAPPING
-     main_Container_Name {
-       display: flex;
-       overflow-x: hidden; /* keeps the div within the main container from over flowing from the main container*/
-       scroll-snap-type: x manditory;
-     }
-     div_in_Container_Name {
-       scroll-snap-align: center;
-     }
-6. RESIZE EVERYTHING
-     element_Name/class {
-       overflow: auto;    /* this will allow a container and it elements to resize together*/
-       resize: both;      /* if both not used can use vertically or horizontally*/
-     }
-7. dfasljasjf
+# CSS Reference<br>
+1. VERTICAL TEXT<br>
+     element/class_Name {<br>
+        writing-mode: vertical-lr;<br>
+     }<br>
+2. GAP<br>
+    element/class_Name {<br>
+      gap: 10px 40px; /* puts a gap between rows and columns. A single value would have rows and columns the same */<br>
+     }<br>
+3. FLIP AN IMAGE<br>
+    element/class_Name {<br>
+      transform: scaleX(-1); /* flips image horizontally items on left are now on right in picture*/<br>
+     }                        /* scaleY(-1) would flip an image from right facing to left facing.*/<br>
+4. SMOOTH SCROLLING<br>
+    html {<br>
+      scroll-behaviour: smooth;<br>
+     }<br>
+5. SCROLL SNAPPING<br>
+     main_Container_Name {<br>
+       display: flex;<br>
+       overflow-x: hidden; /* keeps the div within the main container from over flowing from the main container*/<br>
+       scroll-snap-type: x manditory;<br>
+     }<br>
+     div_in_Container_Name {<br>
+       scroll-snap-align: center;<br>
+     }<br>
+6. RESIZE EVERYTHING<br>
+     element_Name/class {<br>
+       overflow: auto;    /* this will allow a container and it elements to resize together*/<br>
+       resize: both;      /* if both not used can use vertically or horizontally*/<br>
+     }<br>
+7. TRUNCATE<br>
+     p {<br>
+        display: -webkit-box;    /* to allow just a preview of text and add ... after the previewed text*/<br>
+        -webkit-line-clamp: 1; /* states how many lines will show in the preview */<br>
+        -webkit-box-orient: vertical; <br>
+        overflow: hidden;<br>
+     }<br>
 13. adfsjljasljf
 14. ladfslasjl
 15. asdfljaslfj
