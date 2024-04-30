@@ -12,8 +12,8 @@
 
 4. FLIP AN IMAGE <br>
 &nbsp; &nbsp; ` element/class_Name {` <br>
-&nbsp; &nbsp; &nbsp; `transform: scaleX(-1);`
-&nbsp; &nbsp;    ` } ` <br>
+&nbsp; &nbsp; &nbsp; `transform: scaleX(-1);` <br>
+&nbsp; &nbsp;   ` } ` <br>
      /* flips image horizontally items on left are now on right in picture*/ <br>
      /* scaleY(-1) would flip an image from right facing to left facing.*/ <br>
 <br>
