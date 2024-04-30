@@ -10,19 +10,19 @@
 /* puts a gap between rows and columns. A single value would have rows and columns the same */ <br>
 &nbsp; &nbsp; `}` <br>
 
-5. FLIP AN IMAGE <br>
+3. FLIP AN IMAGE <br>
 &nbsp; &nbsp; ` element/class_Name {` <br>
 &nbsp; &nbsp; &nbsp; `transform: scaleX(-1);` <br>
 &nbsp; &nbsp;   ` } ` <br>
      /* flips image horizontally items on left are now on right in picture*/ <br>
      /* scaleY(-1) would flip an image from right facing to left facing.*/ <br>
    
-6. SMOOTH SCROLLING <br>
+4. SMOOTH SCROLLING <br>
 &nbsp; &nbsp; `html {` <br>
 &nbsp; &nbsp; &nbsp; `scroll-behaviour: smooth;` <br>
 &nbsp; &nbsp; `}` <br>
 
-7. SCROLL SNAPPING<br>
+5. SCROLL SNAPPING<br>
 &nbsp; &nbsp; `main_Container_Name {`<br>
 &nbsp; &nbsp; &nbsp; `display: flex;`<br>
 &nbsp; &nbsp; &nbsp; `overflow-x: hidden;` /* keeps the div from over flowing from the main container*/<br>
@@ -32,13 +32,13 @@
 &nbsp; &nbsp; &nbsp;  `scroll-snap-align: center;`<br>
 &nbsp; &nbsp; `}`<br>
 
-8. RESIZE EVERYTHING<br>
+6. RESIZE EVERYTHING<br>
 &nbsp; `element_Name/class {`<br>
 &nbsp; &nbsp; &nbsp; `overflow: auto;`    /* this will allow a container and it elements to resize together */<br>
 &nbsp; &nbsp; &nbsp; `resize: both;`      /* if both not used can use vertically or horizontally */<br>
 &nbsp; &nbsp; `}`<br>
 
-9. TRUNCATE<br>
+7. TRUNCATE<br>
 &nbsp; `p { `<br>
 &nbsp; &nbsp; &nbsp; `display: -webkit-box;` /* to allow just a preview of text and add ... after the previewed text */ <br>
 &nbsp; &nbsp; &nbsp; `-webkit-line-clamp: 1; ` /* states how many lines will show in the preview */ <br>
@@ -46,7 +46,7 @@
 &nbsp; &nbsp; &nbsp; `overflow: hidden;`<br>
 &nbsp; &nbsp; &nbsp; `} `<br>
 
-10. TEXT GRADIENT<br>
+8. TEXT GRADIENT<br>
 &nbsp; `element_Name/class {`<br>
 &nbsp; &nbsp; &nbsp; &nbsp; `background: linear-gradient(to right, rgb, rgb);` /* set preferred gradient */<br>
 &nbsp; &nbsp; &nbsp; &nbsp; `-webkit-background-clip: text;` <br>
@@ -55,7 +55,7 @@
 &nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;` <br>
 &nbsp; &nbsp; &nbsp;  ` }` <br>
 
-11. OBJECT FIT <br>
+9. OBJECT FIT <br>
 An image within a container <br>
 &nbsp; &nbsp; &nbsp;
      
