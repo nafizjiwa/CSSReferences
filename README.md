@@ -26,17 +26,21 @@
      }<br>
 6. RESIZE EVERYTHING<br>
      element_Name/class {<br>
-       overflow: auto;    /* this will allow a container and it elements to resize together*/<br>
-       resize: both;      /* if both not used can use vertically or horizontally*/<br>
+       overflow: auto;    /* this will allow a container and it elements to resize together */<br>
+       resize: both;      /* if both not used can use vertically or horizontally */<br>
      }<br>
 7. TRUNCATE<br>
      p {<br>
-        display: -webkit-box;    /* to allow just a preview of text and add ... after the previewed text*/<br>
+        display: -webkit-box;    /* to allow just a preview of text and add ... after the previewed text */<br>
         -webkit-line-clamp: 1; /* states how many lines will show in the preview */<br>
         -webkit-box-orient: vertical; <br>
         overflow: hidden;<br>
      }<br>
-13. adfsjljasljf
-14. ladfslasjl
-15. asdfljaslfj
-16. 
+13. TEXT GRADIENT
+     background: linear-gradient(to right, rgb, rgb); /* set preferred gradient */
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+15. adfsjljasljf
+16. ladfslasjl
+17. asdfljaslfj
+18. 
