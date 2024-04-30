@@ -61,12 +61,18 @@ To prevent this we use <br>
 &nbsp; &nbsp; &nbsp; `box {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `height: some amount` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; ` width: some amount` <br>     
-&nbsp; &nbsp; `}`<br>
+&nbsp; &nbsp; &nbsp; `}` <br>
 &nbsp; &nbsp; &nbsp; `box img {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `height: 100%` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; ` width: 100%` <br>
-&nbsp; &nbsp; &nbsp; &nbsp; ` object-fit: cover/ fill/ fit` <br>    /* cover is best when preventing stretching and filling the container*/  
-&nbsp; &nbsp; `}`<br>
+&nbsp; &nbsp; &nbsp; &nbsp; ` object-fit: cover/ fill/ fit`   /* cover is best when preventing stretching and filling the container*/  
+&nbsp; &nbsp; &nbsp; `}`<br>
 
 10. POINTER EVENTS <br>
+Prevents from selecting and item
+&nbsp; `element_Name/class {`<br>
+&nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
+&nbsp; `} `<br>
+
+
 
