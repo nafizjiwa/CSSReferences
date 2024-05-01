@@ -69,9 +69,21 @@ To prevent this we use <br>
 &nbsp; &nbsp; &nbsp; `}`<br>
 
 10. POINTER EVENTS <br>
-Prevents from selecting and item <br>
+Prevents from selecting and item on the screen <br>
 &nbsp; `element_Name/class {` <br>
 &nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
+&nbsp; `} `<br>
+With opacity <br>
+&nbsp; `element_Name/class {` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;` <br>
+&nbsp; `} `<br>
+This is better than using display: none; which will remove the element from the dom.<br>
+Also with pointer events we can also animate the element.<br>
+&nbsp; `element_Name/class {` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `pointer-events: none;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `opacity: 0;` <br>
+&nbsp; &nbsp; &nbsp; &nbsp; `animation: fade 1s ease-in 1s;` <br>
 &nbsp; `} `<br>
 
 
